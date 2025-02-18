@@ -1,0 +1,375 @@
+.nav {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+}
+
+.menu {
+  display: none;
+}
+
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.li {
+  margin-right: 40px;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.chapter {
+  min-height: 90vh;
+  padding: 0 50px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+  margin: 0 40px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.photoName {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.chapterTitle {
+  font-size: 25px;
+  color: #4C1C02;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.girl {
+  width: 63px;
+  height: 63px;
+}
+
+.aboutMe {
+  font-size: 20px;
+}
+
+.experienceContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.subChapter {
+  font-size: 20px;
+  color: #4C1C02;
+  font-weight: 800;
+  margin-bottom: -10px;
+  display: flex;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.experienceWrap {
+  box-sizing: border-box;
+  width: 45%;
+  background-color: #F6EFEC;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.graduation {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  rotate: -30deg;
+}
+
+.experienceDetail {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiencePlace {
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.experienceRole {
+  color: #4C1C02;
+  font-size: 16px;
+}
+
+.experienceDuration {
+  font-size: 18px;
+}
+
+.project {
+  background-color: #E5E5E5;
+  padding: 25px 50px;
+}
+
+.projectDiv {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 1s ease-out;
+}
+
+.projectImg {
+  width: 370px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.projectDetail {
+  margin-left: 50px;
+}
+
+.projectDetail .experiencePlace {
+  margin-top: 0px;
+}
+
+.porto:hover {
+  background: url('/images/portobg.png');
+}
+
+.data:hover {
+  background: url('/images/databg.png');
+}
+
+.surattugas:hover {
+  background: url('/images/surattugasbg.png');
+}
+
+.photoprogram:hover {
+  background: url('/images/photobg.png');
+}
+
+.clinic:hover {
+  background: url('/images/clinicbg.png');
+}
+
+.projectDiv:hover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projectDiv:hover img, .projectDiv:hover div {
+  visibility: hidden;
+}
+
+.certifWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.certifGrid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.certifDiv {
+  position: relative;
+}
+
+.certif {
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.certifDetail {
+  position: absolute;
+  inset: 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background:rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.certifDiv:hover .certifDetail {
+  opacity: 1;
+}
+
+.contactDiv {
+  height: 170px;
+  width: 350px;
+}
+
+@media (max-width: 912px) {
+  .frame {
+    margin-bottom: 20px;
+  }
+  
+  .photo {
+    height: 35vh;
+    width: auto;
+  }
+
+  .chapterTitle {
+    justify-content: center;
+  }
+
+  .photoName {
+    font-size: 20px;
+  }
+
+  .experienceContent {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .experienceWrap {
+    width: 100%;
+  }
+
+  .certifWrap  {
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .certifGrid {
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+  }
+
+  .certif {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav {
+    height: 7vh;
+  }
+
+  .menu {
+    display: none;
+  }
+  
+  .ul {
+    display: none;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    text-align: end;
+    position: absolute;
+    top: 7vh;
+    right: 10px;
+    background-color: white;
+    border-top: none;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+  }
+
+  .show {
+    display: flex;
+  }
+  
+  .li {
+    margin: 0px;
+  }  
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    height: 30px;
+    width: 25px;
+  }
+
+  .aboutMe {
+    font-size: 16px;
+  }
+
+  .experienceWrap {
+    width: 100%;
+  }
+
+  .experienceDetail {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .experiencePlace {
+    margin-bottom: 2px;
+  }
+
+  .experienceDuration {
+    font-size: 16px;
+  }
+
+  .experienceDetail p {
+    font-size: 15px;
+  }
+
+  .chapter {
+    min-height: 93vh;
+    padding: 25px;
+  }
+
+  .subChapter {
+    font-size: 18px;
+  }
+
+  .chapterTitle {
+    font-size: 20px;
+  }
+
+  .projectDiv {
+    flex-direction: column;
+  }
+
+  .projectImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .projectDetail {
+    margin: 0;
+  }
+}
