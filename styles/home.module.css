@@ -47,6 +47,11 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
+.photo {
+  height: 50vh;
+  width: auto;
+}
+
 .photoName {
   font-size: 14px;
   margin-top: 10px;
@@ -244,7 +249,6 @@
   
   .photo {
     height: 35vh;
-    width: auto;
   }
 
   .chapterTitle {

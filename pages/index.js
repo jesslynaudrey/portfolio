@@ -50,7 +50,7 @@ function Main() {
       <main className={css.main}>
         <div id='home' className={css.chapter}>
           <div className={css.frame}>
-            <img src='images/me.png' className={css.photo}/>
+            <img src='images/me.jpg' className={css.photo}/>
             <p className={css.photoName}>Audrey</p>
           </div>
           <div>
