@@ -59,7 +59,7 @@ function Main() {
                 <img src='images/girl.png' className={css.girl}/>
               </span>
             </p>
-            <p className={css.aboutMe}>Final year student majoring in Computer Science who is passionate about learning new things, data management, striving for achievements and looking for challenges both in life, career and academics. I am happy to learn mathematics and other related subjects which require logic for problem solving. I am excited to seek new opportunities and challenges to develop myself and gain valuable experiences.</p>
+            <p className={css.aboutMe}>Fresh graduate Computer Science who is passionate about learning new things, striving for achievements and looking for challenges both in life, career and academics. I am happy to learn mathematics and other related subjects which require logic for problem solving. I am excited to seek new opportunities and challenges to develop myself and gain valuable experiences.</p>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ function Main() {
                   <p className={css.experiencePlace}>National Taipei University of Technology</p>
                   <p className={css.experienceRole}>Exchange</p>
                 </div>
-                <p className={css.experienceDuration}>2024 - 2024</p>
+                <p className={css.experienceDuration}>2023 - 2024</p>
               </div>
 
               <div className={css.experienceDetail}>
@@ -102,6 +102,14 @@ function Main() {
                   <img src='images/workcase.png' />
                 </span>
               </p>
+
+              <div className={css.experienceDetail}>
+                <div>
+                  <p className={css.experiencePlace}>Jabil</p>
+                  <p className={css.experienceRole}>Data Analyst</p>
+                </div>
+                <p className={css.experienceDuration}>Apr 2025 - Present</p>
+              </div>
               
               <div className={css.experienceDetail}>
                 <div>
@@ -116,15 +124,7 @@ function Main() {
                   <p className={css.experiencePlace}>Bimbel B-Smart</p>
                   <p className={css.experienceRole}>Tutor</p>
                 </div>
-                <p className={css.experienceDuration}>Nov 2024 - Present</p>
-              </div>
-
-              <div className={css.experienceDetail}>
-                <div>
-                  <p className={css.experiencePlace}>Binus Student Learning Community</p>
-                  <p className={css.experienceRole}>Scholarship Mentor</p>
-                </div>
-                <p className={css.experienceDuration}>Feb 2023 - Jul 2023</p>
+                <p className={css.experienceDuration}>Nov 2024 - Feb 2025</p>
               </div>
 
             </div>
